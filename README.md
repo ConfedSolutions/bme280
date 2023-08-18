@@ -9,3 +9,7 @@ I2C connected BME280. The interface code and calibration formulas are based
 on the Bosch BME280 datasheet. A sample program is included to call the
 library and display the values to the TTY or an OLED display (my OLED_96 lib).
 
+# Changes to original lib
+1. Removed Arduino example folder
+2. Removed make-example file
+3. Got rid of `sudo` in the makefile (Yocto does not like sudo)
